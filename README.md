@@ -1,13 +1,11 @@
 # laboratoire-biomidical-project
-Got it\! Here's the complete `README.md` script for your diabetes risk prediction project. You can copy and paste this directly into a `README.md` file in your project's root directory.
-
 -----
 
 # 🩺 Système intelligent de prédiction du risque de diabète
 
 -----
 
-## 📄 Description du projet
+## Description du projet
 
 Ce projet vise à développer un système intelligent capable de **prédire le risque de développer le diabète** chez un patient. Basé sur des critères cliniques clés tels que la glycémie (Glucose), la pression artérielle (Blood Pressure), l'épaisseur du pli cutané (Skin Thickness), l'insuline, l'Indice de Masse Corporelle (BMI), la fonction de prédisposition génétique au diabète (Diabetes Pedigree Function) et l'âge, ce système offre une double fonctionnalité :
 
@@ -100,8 +98,9 @@ python --version
 Si ce projet est sur un dépôt Git, clonez-le :
 
 ```bash
-git clone <URL_DU_DEPOT>
-cd <NOM_DU_DOSSIER_DU_PROJET>
+git clone https://github.com/SalimM21/laboratoire-biom-dical-project/tree/main
+cd laboratoire-biom-dical-project
+
 ```
 
 ### 3\. Créer et activer un environnement virtuel (recommandé)
