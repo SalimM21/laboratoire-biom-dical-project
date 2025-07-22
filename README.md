@@ -73,10 +73,10 @@ Le développement de ce système intelligent a suivi une approche structurée, e
 
 ```
 .
-├── diabete_data.csv        # Jeu de données d'entrée
-├── diabetes_prediction.ipynb # Notebook Jupyter contenant tout le code du projet
-├── diabetes_risk_prediction_model.pkl # Modèle de classification sauvegardé
-└── README.md               # Ce fichier
+├── diabete_data.csv        
+├── diabetes_prediction.ipynb 
+├── diabetes_risk_prediction_model.pkl 
+└── README.md 
 ```
 
 -----
@@ -134,25 +134,5 @@ Ouvrez le fichier `diabetes_prediction.ipynb` et exécutez toutes les cellules s
 ### 6\. Vérifier le modèle sauvegardé
 
 Après l'exécution complète du notebook, un fichier `diabetes_risk_prediction_model.pkl` sera créé dans le même répertoire, représentant le modèle entraîné et prêt à l'emploi.
-
------
-
-## 📈 Statistiques du projet
-
-*(**Note** : Remplissez les valeurs ci-dessous après avoir exécuté votre notebook et obtenu vos résultats finaux.)*
-
-  * **Taille du jeu de données initial** : X lignes, Y colonnes.
-  * **Nombre de lignes après prétraitement** (gestion des valeurs manquantes et outliers) : Z lignes.
-  * **Nombre de clusters identifiés** : 2 (Faible Risque, Risque Élevé).
-  * **Répartition des catégories de risque** (après clustering) :
-      * Faible Risque : A % des patients
-      * Risque Élevé : B % des patients
-  * **Performances du meilleur modèle de classification** :
-      * **Nom du modèle** : [Nom du meilleur modèle, ex: Random Forest (Optimisé)]
-      * **Accuracy sur l'ensemble de test** : [Votre Accuracy]%
-      * **F1-score pour la classe "High Risk"** : [Votre F1-score]%
-      * **Précision pour la classe "High Risk"** : [Votre Précision]%
-      * **Rappel pour la classe "High Risk"** : [Votre Rappel]%
-      * **Score F1 moyen en validation croisée** : [Votre F1-score CV]% (± [Votre écart-type]%)
 
 -----
