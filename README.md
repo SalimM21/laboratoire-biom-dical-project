@@ -73,10 +73,14 @@ Le développement de ce système intelligent a suivi une approche structurée, e
 
 ```
 .
-├── diabete_data.csv        
-├── diabetes_prediction.ipynb 
-├── diabetes_risk_prediction_model.pkl 
-└── README.md 
+├── diabete_data.csv
+├── diabetes_prediction.ipynb
+├── diabetes_risk_prediction_model.pkl
+├── scaler.pkl
+├── app.py                     # NOUVEAU: Votre application Streamlit
+├── requirements.txt           # NOUVEAU: Vos dépendances Python
+├── Dockerfile                 # NOUVEAU: Les instructions Docker
+└── README.md
 ```
 
 -----
