@@ -77,7 +77,7 @@ Le développement de ce système intelligent a suivi une approche structurée, e
 ├── diabetes_prediction.ipynb
 ├── diabetes_risk_prediction_model.pkl
 ├── scaler.pkl
-├── app.py                     # NOUVEAU: Votre application Streamlit
+├── app.py                     # NOUVEAU: notre application Streamlit
 ├── requirements.txt           # NOUVEAU: Vos dépendances Python
 ├── Dockerfile                 # NOUVEAU: Les instructions Docker
 └── README.md
